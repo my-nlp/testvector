@@ -29,9 +29,9 @@ def movestopwords(sentence):
 
 
 # 以写的方式打开原始的简体中文语料库
-f = codecs.open("zhwiki_chs.txt", "r", encoding="utf8")
+f = codecs.open("./source/zhwiki_chs.txt", "r", encoding="utf8")
 # 将分完词的语料写入到 wiki_chs_seg.txt文件中
-target = codecs.open("wiki_chs_seg.txt", "w", encoding="utf8")
+target = codecs.open("./source/wiki_chs_seg.txt", "w", encoding="utf8")
 
 print("open files")
 line_num = 1

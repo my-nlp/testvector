@@ -2,7 +2,7 @@ from gensim.models import Word2Vec
 from six import iteritems, itervalues, string_types
 import logging
 
-word2vec_model = Word2Vec.load('wiki_chs.model')
+word2vec_model = Word2Vec.load('./output/wiki_chs.model')
 logger = logging.getLogger()
 
 logging.basicConfig(format='%(asctime)s: %(levelname)s: %(message)s')
